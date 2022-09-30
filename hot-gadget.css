@@ -1,0 +1,39 @@
+.container{margin-bottom:100px;}
+.nav-option{display: flex;
+justify-content: flex-end;
+}
+.carousel{background-image: url(images/bg-1.png ) ;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.slides{background-image: url(images/bg-2.png ) ;
+   background-repeat: no-repeat;
+   background-position: 0 100%;
+}
+.carousel .carousel-indicators button { width: 20px; height:5px; margin: 0 10px; border-radius: 12px;}
+.carousel .carousel-indicators .active{width:40px;}
+.carousel-item{padding:30px 50px;}
+.buttons{background-color:black;
+color:white;
+   border-radius: 10px;
+   padding: 5px 10px;
+}
+.see-all{text-align: right;
+color:tomato;}
+.card{ text-align: center;}
+.slide span{background-color:lightgray;
+}
+.categories { text-align: center;
+}
+.under-line{ margin:auto;
+height:5px;
+width: 80px;
+background-image: linear-gradient(to right,orange,tomato);
+border-radius: 5px;
+}
+.card-box{padding: 10px; 
+   margin-top: 50px;
+   border: none;
+   box-shadow: 5px 5px 15px lightgray;
+}
+footer{ text-align: center;}
